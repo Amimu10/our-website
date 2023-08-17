@@ -30,6 +30,9 @@
     /* width: 100vw; Set the width to 100% of the viewport width */
 }
 
+.review{
+  grid-area: review;
+}
 .footer {
   grid-area: footer;
 }
@@ -51,6 +54,7 @@
         "nav      main      main    sidebar"
         "nav      main      main    advertise"
         "available available available available"
+        "review  review    review    review"
         "footer   footer    footer   footer"
  
 }
