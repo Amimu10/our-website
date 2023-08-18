@@ -315,23 +315,23 @@
               <input type="hidden" name="utf8" value="✓">
               
               <div class="mb-4">
-                  <label for="ContactFormName" class="block font-medium">Name</label>
-                  <input type="text" id="ContactFormName" name="contact[name]" class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-blue-500 focus:border-blue-500" placeholder="Your name">
+                  <label for="ContactFormName" class="block font-medium mb-2">Name</label>
+                  <input type="text" id="ContactFormName" name="contact[name]" class="w-full px-3 py-2 input focus:outline-none input-success" placeholder="Your name">
               </div>
               
               <div class="mb-4">
-                  <label for="ContactFormEmail" class="block font-medium">Address</label>
-                  <input type="email" id="ContactFormEmail" name="contact[email]" class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-blue-500 focus:border-blue-500" placeholder="Your NID Address" required>
-              </div>
+                <label for="ContactFormName" class="block font-medium mb-2">Address</label>
+                <input type="text" id="ContactFormName" name="contact[adress]" class="w-full px-3 py-2 input focus:outline-none input-success" placeholder="Your NID address">
+            </div>
+              
+            <div class="mb-4">
+              <label for="ContactFormName" class="block font-medium mb-2">Phone</label>
+              <input type="text" id="ContactFormName" name="contact[phone]" class="w-full px-3 py-2 input focus:outline-none input-success" placeholder="Your phone">
+          </div>
               
               <div class="mb-4">
-                  <label for="ContactFormPhone" class="block font-medium">Phone number</label>
-                  <input type="tel" id="ContactFormPhone" name="contact[phone]" class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-blue-500 focus:border-blue-500" placeholder=" Your phone">
-              </div>
-              
-              <div class="mb-4">
-                  <label for="ContactFormMessage" class="block font-medium">Write Message</label>
-                  <textarea id="ContactFormMessage" name="contact[body]" rows="6" class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-blue-500 focus:border-blue-500" placeholder="Your Message"></textarea>
+                  <label for="ContactFormMessage" class="block font-medium mb-2">Write Message</label>
+                  <textarea id="ContactFormMessage" name="contact[body]" rows="6" class="w-full px-3 py-2 border rounded focus:outline-none border-[#39A1A5] focus:border-success" placeholder="Your Message"></textarea>
               </div>
               
               <div class="flex justify-center">
@@ -342,35 +342,6 @@
       </div>
   </div>
 </div>
-<!-- footer starts here -->
-<!-- <footer>
-  <div>
-    <div>
-      <span class="footer-title">Services</span> 
-      <a class="link link-hover">Branding</a> 
-      <a class="link link-hover">Design</a> 
-      <a class="link link-hover">Marketing</a> 
-      <a class="link link-hover">Advertisement</a>
-    </div> 
-    <div>
-      <span class="footer-title">Company</span> 
-      <a class="link link-hover">About us</a> 
-      <a class="link link-hover">Contact</a> 
-      <a class="link link-hover">Jobs</a> 
-      <a class="link link-hover">Press kit</a>
-    </div> 
-    <div>
-      <span class="footer-title">Social</span> 
-      <div class="grid grid-flow-col gap-4">
-        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
-        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
-        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
-      </div>
-    </div>
-  </div>
-
-</footer> -->
-
 <footer>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pt-5 justify-center md:text-center lg:px-12 px-4 gap-8">
     <div class="flex-1">
@@ -378,38 +349,39 @@
      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, odit?</p>
     </div>
       <div class="flex-1">
-          <h3>Quick Links</h3>
-          <ul>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms &amp; Conditions</a></li>
+          <h3 class="footer-title">SERVICES</h3>
+          <ul class="hover:underline">
+              <li><a href="#">Branding</a></li>
+              <li><a href="#">Design</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Advertisement</a></li>
           </ul>
       </div>
       <div class="flex-1">
-          <h3>Course</h3>
-          <ul>
-              <li><a href="#">Log In</a></li>
-              <li><a href="#">Download</a></li>
-              <li><a href="#">All Courses</a></li>
+          <h3 class="footer-title">Company</h3>
+          <ul class="hover:underline">
+              <li><a href="#">About us</a></li>
+              <li><a href="#"> Contact</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Press kit</a></li>
           </ul>
       </div>
       <div class="flex-1">
-          <h3>Contact Us</h3>
+          <h3 class="footer-title">Contact Us</h3>
           <ul>
               <li><span class="text-center">contact@email.com</span></li>
           </ul>
-          <div class="social">
-              <a href="#"><i class="fab fa-facebook text-white text-center"></i></a>
-              <a href="#"><i class="fab fa-instagram text-white text-center"></i></a>
+          <div class="flex justify-center gap-6 my-4">
+              <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+              <a href="#"><i class="fab fa-whatsapp fa-2x"></i></a>
           </div>
           <form action="">
-              <input type="text" placeholder="Email Address" class="p-text">
-              <button class="submit-btn">Subscribe</button>
+            <input type="text" placeholder="Email here" class="input focus:outline-none input-success w-full max-w-xs mb-4" />
+            <button type="submit" class="bg-[#39A1A5] text-white hover:text-[#39A1A5] hover:bg-white px-4 py-2 rounded transition-shadow shadow-lg hover:shadow-[#39A1A5]">Send Message</button>
           </form>
       </div>
   </div>
-  <p class="text-center py-5">This website is developed by Amimul Ahsan© 2021</p>
+  <p class="text-center py-5">This website is developed by Amimul Ahsan© 2023</p>
 </footer>
    <script src="index.js"></script>
 </body>
