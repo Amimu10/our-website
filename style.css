@@ -33,6 +33,10 @@
 .review{
   grid-area: review;
 }
+.contact{
+  grid-area: contact;
+}
+
 .footer {
   grid-area: footer;
 }
@@ -44,6 +48,7 @@
     "header   header   header   header"
     "nav      main      main    sidebar"
     "nav      main      main   advertise"
+    "contact   contact    contact   contact"
     "footer  footer    footer   footer";
 } */
 /* Update your existing .container CSS */
@@ -63,16 +68,36 @@
 
 /* fonts */
 body {
-  /* font-family: "Bebas Neue", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-family: "Lato", sans-serif;
   font-family: "Open Sans", sans-serif;
-  font-family: "Poppins", sans-serif; */
+  font-family: "Poppins", sans-serif;
 }
 /* styles */
 
     /* Add this to your existing CSS or create a new CSS file */
 .available h2{
     font-family: "Bebas Neue", sans-serif;
+}
+
+.review h2{
+  font-family: "Bebas Neue", sans-serif;
+
+}
+
+.custom-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  /* background-color: blue; */
+  transition: height 0.3s ease; /* Smooth transition for overlay height */
+  z-index: -1;
+}
+
+.custom-button:hover .custom-overlay {
+  height: 100%;
 }
 
 @media screen and (max-width: 576px) {
@@ -96,6 +121,6 @@ body {
       "sidebar main    main"
       "advertise footer footer"
       "available available"
-      "footer footer footer"
+      "footer footer"
   }
 }
